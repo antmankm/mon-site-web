@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/7c066b37d1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>PORTFOLIO</title>
+</head>
+<body class="bg-gray-950 font-serif poppins">
+    <!-- Header -->
+    <header class="bg-gray-950 text-white p-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold cursor-pointer">ANT<span class="text-red-900">PORTFOLIO</span></h1>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="#home" class="hover:text-red-700">Home</a></li>
+                <li><a href="#skills" class="hover:text-red-700">Skills</a></li>
+                <li><a href="#projects" class="hover:text-red-700">Projects</a></li>
+                <li><a href="#contact" class="hover:text-red-700">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero section -->
+    <section id="home" class="h-screen bg-cover bg-center text-white" style="background-image: url(https://img.freepik.com/free-photo/it-specialist-checking-code-computer-dark-office-night_1098-18699.jpg?t=st=1728318935~exp=1728322535~hmac=075fc4356fd19565f2fb0213e34c1c2ff240d1dc5b97512955b54e4db4a623ab&w=900)">
+        <div class="h-full flex flex-col justify-center items-center bg-black bg-opacity-50">
+            <h2 class="text-4xl md:text-6xl font-bold">Hello, I'm Abou Ndiaye <span class="text-red-900">Thiam</span></h2>
+            <p class="text-xl md:text-xl p-8">Welcome to my world of web development design and software testing</p>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills" class="p-8">
+        <h2 class="text-3xl mb-6 text-center font-bold text-white">My Skills</h2>
+        <div class="flex flex-wrap justify-center space-x-4 space-y-4">
+            <div class="bg-yellow-300 font-bold p-4 shadow-md rounded-md flex items-center space-x-2 transform transition-transform duration-300 hover:scale-105">
+                <i class="fa-brands fa-js fa-beat"></i>
+                <span class="text-lg">JavaScript</span>
+            </div>
+            <div class="bg-blue-600 p-4 shadow-md rounded-md flex items-center space-x-2 transform transition-transform duration-300 hover:scale-105">
+                <i class="fa-brands fa-react fa-spin fa-spin-reverse"></i>
+                <span class="text-lg font-bold">React</span>
+            </div>
+            <div class="bg-green-900 p-4 shadow-md rounded-md flex items-center space-x-2 transform transition-transform duration-300 hover:scale-105">
+                <i class="fa-brands fa-node fa-fade"></i>
+                <span class="text-lg font-bold" >NODE JS</span>
+            </div>
+            <div class="bg-orange-200 p-4 shadow-md rounded-md flex items-center space-x-2 transform transition-transform duration-300 hover:scale-105">
+                <i class="fa-brands fa-html5 fa-flip"></i>
+                <span class="text-lg font-bold">HTML5</span>
+            </div>
+            <div class="bg-blue-300 p-4 shadow-md rounded-md flex items-center space-x-2 transform transition-transform duration-300 hover:scale-105">
+                <i class="fa-brands fa-css3 fa-bounce"></i>
+                <span class="text-lg font-bold">CSS3</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects" class="p-8 bg-gray-950">
+        <h2 class="text-white text-3xl mb-6 text-center font-bold">Mes projets</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Project card -->
+            <div class="bg-black shadow-md rounded-md overflow-hidden">
+                <img src="image/cosmetik.png" alt="Sen Cosmetik" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">Sen Cosmetik</h3>
+                    <p class="mt-2 text-white">aperçu d'une page de menu pour une boutique qui vend des profuits skin care.</p>
+                </div>
+            </div>
+
+            <div class="bg-black shadow-md rounded-md overflow-hidden">
+                <img src="image/freshfood.png" alt="freshfood" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">FRESHFOOD</h3>
+                    <p class="mt-2 text-white">Aperçu du page d'accueil d'une restaurant fast food nommée FRESHFOOD.</p>
+                </div>
+            </div>
+
+            <div class="bg-black shadow-md rounded-md overflow-hidden">
+                <img src="image/makup3.jpg" alt="makup3" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">Makup de site web</h3>
+                    <p class="mt-2 text-white">Modele de site sur freepik.</p>
+                </div>
+            </div>
+
+            <div class="bg-black shadow-md rounded-md overflow-hidden">
+                <img src="image/makup2.jpg" alt="makup2" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">MAKUP2</h3>
+                    <p class="mt-2 text-white">Aperçu du page d'une modele de site .</p>
+                </div>
+            </div>
+
+            <div class="bg-black shadow-md rounded-md overflow-hidden">
+                <img src="image/makup site.jpg" alt="makupsite" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">Modele de site web</h3>
+                    <p class="mt-2 text-white">Modele de site web.</p>
+                </div>
+            </div>
+
+            <div class="bg-black shadow-md rounded-md overflow-hidden">
+                <img src="image/pointhtml.png" alt="pointhtml" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">checkpoint html</h3>
+                    <p class="mt-2 text-white">Excercice sur la base html</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="p-6">
+        <h2 class="text-3xl mb-6 text-center font-bold text-white">Contact Moi</h2>
+        <form class="max-w-md mx-auto bg-gray-900 p-6 shadow-md rounded-md">
+            <div class="mb-4">
+                <label for="name" class="block text-white font-bold">Your Name:</label>
+                <input type="text" id="name" name="name" class="w-full p-2 border border-gray-900 rounded-md" required>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-white font-bold">Your Email:</label>
+                <input type="email" id="email" name="email" class="w-full p-2 border border-gray-300 rounded-md" required>
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-white font-bold">Your Message:</label>
+                <textarea id="message" name="message" class="w-full p-2 border border-gray-300 rounded-md" required></textarea>
+            </div>
+            <button type="submit" class="bg-blue-950 w-full text-white px-4 py-2 rounded-md">ENVOYER</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-950 text-white p-4 text-center">
+        <p>&copy; 2024 ANT. Tous droits réservés</p>
+    </footer>
+</body>
+</html>
