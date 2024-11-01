@@ -7,7 +7,7 @@
     <script src="https://kit.fontawesome.com/7c066b37d1.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>PORTFOLIO</title>
 </head>
@@ -37,23 +37,23 @@
     <section id="skills" class="p-8">
         <h2 class="text-3xl mb-6 text-center font-bold text-white">My Skills</h2>
         <div class="flex flex-wrap justify-center space-x-4 space-y-4">
-            <div class="bg-yellow-300 font-bold p-4 shadow-md rounded-md flex items-center space-x-2 transform transition-transform duration-300 hover:scale-105">
+            <div class="skill-card bg-yellow-300 font-bold p-4 shadow-md rounded-md flex items-center space-x-2">
                 <i class="fa-brands fa-js fa-beat"></i>
                 <span class="text-lg">JavaScript</span>
             </div>
-            <div class="bg-blue-600 p-4 shadow-md rounded-md flex items-center space-x-2 transform transition-transform duration-300 hover:scale-105">
+            <div class="skill-card bg-blue-600 p-4 shadow-md rounded-md flex items-center space-x-2">
                 <i class="fa-brands fa-react fa-spin fa-spin-reverse"></i>
                 <span class="text-lg font-bold">React</span>
             </div>
-            <div class="bg-green-900 p-4 shadow-md rounded-md flex items-center space-x-2 transform transition-transform duration-300 hover:scale-105">
+            <div class="skill-card bg-green-900 p-4 shadow-md rounded-md flex items-center space-x-2">
                 <i class="fa-brands fa-node fa-fade"></i>
                 <span class="text-lg font-bold" >NODE JS</span>
             </div>
-            <div class="bg-orange-200 p-4 shadow-md rounded-md flex items-center space-x-2 transform transition-transform duration-300 hover:scale-105">
+            <div class="skill-card bg-orange-200 p-4 shadow-md rounded-md flex items-center space-x-2">
                 <i class="fa-brands fa-html5 fa-flip"></i>
                 <span class="text-lg font-bold">HTML5</span>
             </div>
-            <div class="bg-blue-300 p-4 shadow-md rounded-md flex items-center space-x-2 transform transition-transform duration-300 hover:scale-105">
+            <div class="skill-card bg-blue-300 p-4 shadow-md rounded-md flex items-center space-x-2">
                 <i class="fa-brands fa-css3 fa-bounce"></i>
                 <span class="text-lg font-bold">CSS3</span>
             </div>
@@ -65,51 +65,53 @@
         <h2 class="text-white text-3xl mb-6 text-center font-bold">Mes projets</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <!-- Project card -->
-            <div class="bg-black shadow-md rounded-md overflow-hidden">
-                <img src="image/cosmetik.png" alt="Sen Cosmetik" class="w-full h-48 object-cover">
+            <div class="project-card bg-black shadow-md rounded-md overflow-hidden">
+                <img src="image/cosmetik.png" alt="Aperçu du site Sen Cosmetik" class="w-full h-48 object-cover">
                 <div class="p-4">
                     <h3 class="text-xl font-semibold">Sen Cosmetik</h3>
-                    <p class="mt-2 text-white">aperçu d'une page de menu pour une boutique qui vend des profuits skin care.</p>
+                    <p class="mt-2 text-white">Aperçu d'une page de menu pour une boutique qui vend des produits skincare.</p>
+                    <a href="https://github.com/tonrepo/sen-cosmetik" class="text-blue-400 underline mt-4 block">Voir sur GitHub</a>
                 </div>
             </div>
 
-            <div class="bg-black shadow-md rounded-md overflow-hidden">
-                <img src="image/freshfood.png" alt="freshfood" class="w-full h-48 object-cover">
+            <div class="project-card bg-black shadow-md rounded-md overflow-hidden">
+                <img src="image/freshfood.png" alt="Aperçu du site Freshfood" class="w-full h-48 object-cover">
                 <div class="p-4">
                     <h3 class="text-xl font-semibold">FRESHFOOD</h3>
-                    <p class="mt-2 text-white">Aperçu du page d'accueil d'une restaurant fast food nommée FRESHFOOD.</p>
+                    <p class="mt-2 text-white">Aperçu de la page d'accueil d'un restaurant fast food nommé FRESHFOOD.</p>
+                    <a href="https://github.com/tonrepo/freshfood" class="text-blue-400 underline mt-4 block">Voir sur GitHub</a>
                 </div>
             </div>
 
-            <div class="bg-black shadow-md rounded-md overflow-hidden">
-                <img src="image/makup3.jpg" alt="makup3" class="w-full h-48 object-cover">
+            <div class="project-card bg-black shadow-md rounded-md overflow-hidden">
+                <img src="image/makup3.jpg" alt="Maquette de site web" class="w-full h-48 object-cover">
                 <div class="p-4">
-                    <h3 class="text-xl font-semibold">Makup de site web</h3>
-                    <p class="mt-2 text-white">Modele de site sur freepik.</p>
+                    <h3 class="text-xl font-semibold">Maquette de site web</h3>
+                    <p class="mt-2 text-white">Modèle de site téléchargé sur Freepik pour un exemple de maquettage.</p>
                 </div>
             </div>
 
-            <div class="bg-black shadow-md rounded-md overflow-hidden">
-                <img src="image/makup2.jpg" alt="makup2" class="w-full h-48 object-cover">
+            <div class="project-card bg-black shadow-md rounded-md overflow-hidden">
+                <img src="image/makup2.jpg" alt="Aperçu du projet MAKUP2" class="w-full h-48 object-cover">
                 <div class="p-4">
                     <h3 class="text-xl font-semibold">MAKUP2</h3>
-                    <p class="mt-2 text-white">Aperçu du page d'une modele de site .</p>
+                    <p class="mt-2 text-white">Aperçu d'une page modèle de site.</p>
                 </div>
             </div>
 
-            <div class="bg-black shadow-md rounded-md overflow-hidden">
-                <img src="image/makup site.jpg" alt="makupsite" class="w-full h-48 object-cover">
+            <div class="project-card bg-black shadow-md rounded-md overflow-hidden">
+                <img src="image/makup site.jpg" alt="Aperçu du modèle de site web" class="w-full h-48 object-cover">
                 <div class="p-4">
-                    <h3 class="text-xl font-semibold">Modele de site web</h3>
-                    <p class="mt-2 text-white">Modele de site web.</p>
+                    <h3 class="text-xl font-semibold">Modèle de site web</h3>
+                    <p class="mt-2 text-white">Un modèle de site web avec Freepik.</p>
                 </div>
             </div>
 
-            <div class="bg-black shadow-md rounded-md overflow-hidden">
-                <img src="image/pointhtml.png" alt="pointhtml" class="w-full h-48 object-cover">
+            <div class="project-card bg-black shadow-md rounded-md overflow-hidden">
+                <img src="image/pointhtml.png" alt="Exercice HTML" class="w-full h-48 object-cover">
                 <div class="p-4">
-                    <h3 class="text-xl font-semibold">checkpoint html</h3>
-                    <p class="mt-2 text-white">Excercice sur la base html</p>
+                    <h3 class="text-xl font-semibold">Checkpoint HTML</h3>
+                    <p class="mt-2 text-white">Exercice pratique sur les bases de HTML.</p>
                 </div>
             </div>
         </div>
@@ -125,19 +127,16 @@
             </div>
             <div class="mb-4">
                 <label for="email" class="block text-white font-bold">Your Email:</label>
-                <input type="email" id="email" name="email" class="w-full p-2 border border-gray-300 rounded-md" required>
+                <input type="email" id="email" name="email" class="w-full p-2 border border-gray-900 rounded-md" required>
             </div>
             <div class="mb-4">
                 <label for="message" class="block text-white font-bold">Your Message:</label>
-                <textarea id="message" name="message" class="w-full p-2 border border-gray-300 rounded-md" required></textarea>
+                <textarea id="message" name="message" rows="4" class="w-full p-2 border border-gray-900 rounded-md" required></textarea>
             </div>
-            <button type="submit" class="bg-blue-950 w-full text-white px-4 py-2 rounded-md">ENVOYER</button>
+            <button type="submit" class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700">Send</button>
         </form>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-gray-950 text-white p-4 text-center">
-        <p>&copy; 2024 ANT. Tous droits réservés</p>
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
